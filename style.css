@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: ;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,61 +11,105 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: #c7c7c7;
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-between;
     padding: 15px;
     align-items: center;
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
 .cabecalho {
-    text-align: center;
-    padding: 50px;
-    background-color: #ddd;
-}
-
-.logo {
     font-size: 10px;
     text-decoration: none;
 }
 
-
-
-.sobre, .contato {
-    text-align: center;
-    padding: 30px;
+.main {
+    background-color: rgb(199, 199, 199);
 }
 
+.amarelo {
+    height: 25px;
+    background-color: yellow;
+}
 
+.transparente {
+    opacity: 20%;
+}
 
-form {
-    max-width: 400px;
-    margin: auto;
+.flex {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    justify-content: space-between;
+    width: 50%;
+    
 }
 
-input, textarea {
+.flex p {
+    margin: 0;
+    align-content: center;
+}
+
+.fundo {
+    background-color: rgba(177, 177, 255, 0.918);
+}
+
+.lado-esquerdo {
+    max-width: 20%;
+}
+
+
+.titulo-esquerdo {
+    padding-left: 25px;
+    margin: 20px;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo-esquerdo h3 {
+    align-content: center;
+    font-size: 15px;
+}
+
+.titulo-esquerdo p {
+    font-size: 15px;
+}
+
+.botao-esquerdo {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(199, 199, 199);
+}
+
+table {
+    border: 2px solid rgb(177, 177, 177);
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
     width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid rgb(136, 136, 136);
+    text-align: left;
     padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
+  }
+  
+  tr:nth-child(even) {
+    background-color: white;
+  }
 
+  #tabela-adicional th {
+    background-color: rgb(197, 197, 197);
+    display: flex;
+    height: 15px
+  }
+
+  .tabela-esquerda{
+    display: flex; 
+  }
+
+  #tabela-adicional {
+    border: 2px solid rgb(219, 219, 219);
+    font-family: arial, sans-serif;
+    width: 10%;
+  }
